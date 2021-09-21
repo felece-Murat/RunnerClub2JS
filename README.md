@@ -3,5 +3,8 @@
 <br>
 <br>
 <div align="center">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> 👉 <a href=" www.linkedin.com/in/MuratYillmaz">Murat Yılmaz</a> 
+
+| <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /> | <a href=" www.linkedin.com/in/MuratYillmaz">Murat Yılmaz</a> 🤙 |
+| ------------------------------------------------------------ | --------------------------------- |
+
 </div>
