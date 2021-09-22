@@ -29,7 +29,7 @@ console.log(mini.marka);
 //----------------------------------------------------Nesnye fonksiyon eklemek
 
 mini.stop = function stop() {
-    console.log(`mini is going`);
+    console.log(`mini stopped`);
 }
 
 mini.stop(); //butona da eklenebiliyor.
