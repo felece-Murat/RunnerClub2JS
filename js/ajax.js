@@ -18,22 +18,22 @@ myRequest.send();
 
 var btn = document.getElementById('ajaxSenderBtn');
 
-// Butona bağlamak.
-// btn.addEventListener('click', function() { //event listener.
-//   secondReq.open('GET', `http://127.0.0.1:4000/container.json`);
-//   secondReq.onload = function() {
-//     var myData = JSON.parse(secondReq.responseText);
-//     renderHtml(myData)
-//   };
-//
-//   //Error hadnling.
-//   secondReq.onerror = function () {
-//     console.log("error.");
-//   }
-//   secondReq.send();
-//
-//   //btn.style.display = 'none';
-// });
+Butona bağlamak.
+btn.addEventListener('click', function() { //event listener.
+  secondReq.open('GET', `http://127.0.0.1:4000/container.json`);
+  secondReq.onload = function() {
+    var myData = JSON.parse(secondReq.responseText);
+    renderHtml(myData)
+  };
+
+  //Error hadnling.
+  secondReq.onerror = function () {
+    console.log("error.");
+  }
+  secondReq.send();
+
+  //btn.style.display = 'none';
+});
 
 function renderHtml(data) {
   var string = "";
