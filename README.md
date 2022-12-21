@@ -1,5 +1,5 @@
 <h1 align="center">Selam 👋, Ben Murat</h1>
-<h4 align="center">İkinci runner club eğitimleri sırasında yazdığımız JavaScript kodlarını bulmanız için oluşturulmuş repodasınız.</h4>
+<h4 align="center">Runner club eğitimleri sırasında yazdığımız JavaScript kodlarını bulmanız için oluşturulmuş repodasınız. Sorularınız olursa <a href="mailto:murat.yilmaz@felece.com">mail adresim</a>.</h4>
 <br>
 <br>
 <div align="center">
