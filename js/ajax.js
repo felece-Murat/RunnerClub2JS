@@ -1,6 +1,6 @@
 var myRequest = new XMLHttpRequest;
 var secondReq = new XMLHttpRequest;
-myRequest.open('GET', `http://127.0.0.1:4000/container.json`);
+myRequest.open('GET', `https://jsonplaceholder.typicode.com/todos/1`);
 
 // myRequest.onload = function() {
 //     console.log(myRequest.responseText);
@@ -20,7 +20,7 @@ var btn = document.getElementById('ajaxSenderBtn');
 
 Butona bağlamak.
 btn.addEventListener('click', function() { //event listener.
-  secondReq.open('GET', `http://127.0.0.1:4000/container.json`);
+  secondReq.open('GET', `https://jsonplaceholder.typicode.com/todos/1`);
   secondReq.onload = function() {
     var myData = JSON.parse(secondReq.responseText);
     renderHtml(myData)
@@ -47,7 +47,7 @@ function renderHtml(data) {
 
 btn.addEventListener('click', function() { //event listener.
   $.ajax({
-    url: "http://127.0.0.1:4000/container.json",
+    url: "https://jsonplaceholder.typicode.com/todos/1",
     success: function(result) {
       renderHtml(result) //json.parse halinde atiliyor.
     }
